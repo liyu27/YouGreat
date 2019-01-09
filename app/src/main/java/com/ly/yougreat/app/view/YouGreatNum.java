@@ -62,7 +62,7 @@ public class YouGreatNum extends View {
 
         //初始化文字相关配置
         textPaint.setColor(Color.GRAY);
-        textPaint.setTextSize(Utils.spToPx(getContext(),14));
+        textPaint.setTextSize(Utils.spToPx(getContext(), 14));
         oldTextPaint.setColor(Color.GRAY);
         oldTextPaint.setTextSize(Utils.spToPx(getContext(), 14));
     }

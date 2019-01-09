@@ -49,11 +49,9 @@ public class MainActivity extends AppCompatActivity {
         mActiveView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                IyLog.i("000 is selected = " + Global.gIsSelected);
                 mGoodJobView.toggle(Global.gIsSelected);
                 mGoodJobView_num.toggle(Global.gIsSelected);
                 Global.gIsSelected = !Global.gIsSelected;
-                IyLog.i("999 is selected = " + Global.gIsSelected);
             }
         });
 

@@ -14,7 +14,6 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.ly.yougreat.app.IyLog;
 import com.ly.yougreat.app.R;
 import com.ly.yougreat.app.Utils;
 
@@ -121,7 +120,6 @@ public class YouGreatBitmap extends View {
     }
 
     public void toggle(boolean isTouch) {
-        IyLog.i("isTouch = " + isTouch);
         isSelected = !isTouch;
         if (isSelected) {
             ObjectAnimator handScaleAnim = ObjectAnimator.ofFloat(this, "handScale", 1f, 0.8f, 1f);
